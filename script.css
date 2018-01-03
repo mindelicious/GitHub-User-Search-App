@@ -4,8 +4,13 @@
 body {
     background: whitesmoke;
 }
+form {
+    width: 100%;
+    text-align: center;
+}
 a {
     display: flex;
+    justify-content: center;
     align-items: center;
     text-decoration: none;
     color: black;
@@ -21,7 +26,7 @@ div {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 1px;
+    padding: 5px;
 }
 label {
     margin-right: 10px;
